@@ -1,5 +1,5 @@
 
-# Probabilistic Stability for Winners in Voting
+# Probabilistic Methods in Social Choice (ESSLLI 2021)
 
 README.md for the code used in the course [Probabilistic Methods in Social Choice](https://pacuit.org/esslli2021/prob-social-choice/).  
 

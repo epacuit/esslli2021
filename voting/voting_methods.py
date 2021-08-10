@@ -2015,8 +2015,7 @@ def daunou(profile):
         winners = [cw]
     else: 
         cands_survive_it_rem_cl = iterated_remove_cl(profile)
-        updated_profile, orig_cnames = profile.remove_candidates([_c for _c in profile.candidates 
-                                                                  if _c not in cands_survive_it_rem_cl])
+        updated_profile, orig_cnames = profile.remove_candidates([_c for _c in profile.candidates if _c not in cands_survive_it_rem_cl])
         winners = plurality(updated_profile)
         
     return sorted([orig_cnames[c] for c in winners])
